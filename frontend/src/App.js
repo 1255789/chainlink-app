@@ -184,7 +184,7 @@ function App() {
             <Card.Body>
               <div className='col'>
                 <h5>
-                  {pairs ? `${pairs+'\n' + "=>" + storedPrice}` : "Not any pair selected"}
+                  {pairs ? `${pairs+'\n' + "=>" + storedPrice}` : ""}
                  
                 </h5>
               </div>
